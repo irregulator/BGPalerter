@@ -19,7 +19,8 @@
     "serve": "babel-node index.js",
     "inspect": "node --inspect --require @babel/register index.js",
     "update": "git update-index --assume-unchanged config.yml && git update-index --assume-unchanged prefixes.yml && git pull",
-    "generate-prefixes": "babel-node index.js generate"
+    "generate-prefixes": "babel-node index.js generate",
+    "demo": "babel-node demo.js"
   },
   "author": "Massimo Candela",
   "license": "BSD-3-Clause",
