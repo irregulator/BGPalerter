@@ -1,0 +1,16 @@
+159.100.248.0/21:
+  description: 'exoscale Akenes SA, CH'
+  asn:
+    - 61098
+  ignoreMorespecifics: false
+  ignore: false
+'2a04:c44::/32':
+  description: 'exoscale Akenes SA, CH'
+  asn:
+    - 61098
+  ignoreMorespecifics: false
+  ignore: false
+options:
+ monitorASns:
+   61098:
+     group: default
